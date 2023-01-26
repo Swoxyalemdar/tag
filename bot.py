@@ -27,8 +27,8 @@ async def cancel(event):
 async def start(event):
   await event.reply("**Ben Tagger Bot**, Grup veya kanaldaki neredeyse tüm üyelerden bahsedebilirim ★\nDaha fazla bilgi için **/help**'i tıklayın.",
                     buttons=(
-                      [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/Twoze_bot?startgroup=a'),
-                      Button.url('📣 grup', https://t.me/+FYp4FGEwtQcwNDVk')]
+                      [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/Lawentaggerbot?startgroup=a'),
+                      Button.url('📣 grup', https://t.me/+4Y5vdzdUtss2ODEx')]
                     ),
                     link_preview=False
                    )
@@ -37,8 +37,8 @@ async def help(event):
   helptext = "**Tagger Bot'un Yardım Menüsü**\n\nKomut: /all \n  Bu komutu, başkalarına bahsetmek istediğiniz metinle birlikte kullanabilirsiniz. \n\n`Örnek: /all Günaydın!`  \n\nBu komutu yanıt olarak kullanabilirsiniz. Herhangi bir mesaj yanıtlandığında, yanıtlanan mesaj ile kullanıcıları etiketleyecebilir\n@turkcbot"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/Twoze_bot?startgroup=a'),
-                      Button.url('📣 Geliştirici', 'https://t.me/+FYp4FGEwtQcwNDVk')]
+                      [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/Lawentaggerbot?startgroup=a'),
+                      Button.url('📣 Geliştirici', 'https://t.me/+4Y5vdzdUtss2ODEx')]
                     ),
                     link_preview=False
                    )
